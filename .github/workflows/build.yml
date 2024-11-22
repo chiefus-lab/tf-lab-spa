@@ -1,0 +1,5 @@
+name: Main Workflow
+on: [workflow_dispatch]
+jobs:
+  build:
+    uses: chiefus-lab/tf-lab-app/.github/workflows/reusable_node_vulnerability_scan.yml@main
